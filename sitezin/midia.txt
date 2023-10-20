@@ -1,0 +1,12 @@
+          
+          <!-- <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/theo-canuto-2b15b0266/" target="_blank" class="outer-shadow"><i
+                class="fab fa-linkedin-in"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5521981664676" target="_blank" class="outer-shadow"><i
+                class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/canutoth" target="_blank" class="outer-shadow"><i
+                class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/canutoth/" target="_blank" class="outer-shadow"><i
+                class="fab fa-instagram"></i></a>
+          </div>
+           -->

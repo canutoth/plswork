@@ -1,0 +1,11 @@
+.equipe{
+    column-count: 4;
+    column-gap: 0;
+  }
+
+.img {
+    width: 10%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    transition: scale 350ms ease, opacity 350ms linear;
+  }

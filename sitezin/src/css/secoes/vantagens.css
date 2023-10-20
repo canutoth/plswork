@@ -1,0 +1,25 @@
+.vantagens{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+img {
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    transition: scale 350ms ease, opacity 350ms linear;
+  }
+  
+.vantagens:has(img:hover) img:not(:hover){
+  scale: .8;
+  opacity: .5;
+}
+
+.vantagens:has(img:not(:hover)) img:hover{
+  scale: .9;
+}
+
+.vantagens img {
+  scale: .85;
+}

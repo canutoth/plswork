@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./src/imagens/logo.jpg" type="image/x-icon">
+  <title>Sistema CAPIVARA</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/contato.css" />
+  <link rel="stylesheet" href="src/css/secoes/vantagens.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+  <link rel="stylesheet" href="src/css/scrollbar.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">C.A.P.I.V.A.R.A</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#vantagens">Vantagens</a></li>
+            <li><a href="#equipe">Equipe</a></li>
+            <li><a href="/login.html">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>
+          <p> </p>Conheça o Sistema</p>
+          <h1><span>C.A.P.I.V.A.R.A</span></h1>
+          <h2>Circuito​ Automatizado Por ​Internet Visando o Acompanhamento​ Real de​ Alunos​</h2>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="src/imagens/perfilcapi.png" alt="capi profile picture" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/perfilcapi.png" alt="profile picture" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            Grupo de alunos da disciplina INF1039 - Projetos: Aplicações Interativas na PUC-Rio desenvolvendo um sistema
+            automatizado de registro de presença em sala, utilizando a carteirinha da universidade.
+          </p>
+
+          <div class="botoes">
+            <a target="_blank"
+              href="C:\Users\User\Downloads\sprints\1011\theos portfolio\formulario-com-validacao-quest-devquest-main\index.html"
+              class="botao outer-shadow">Seja um Beta Tester!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contato" id="contato">
+    <div class="container">
+      <div class="formulario-wrap">
+        <div class="section-title">
+          <h2>Entre em contato!</h2>
+        </div>
+        <div class="formulario">
+          <input class="input-text" type="text" placeholder="Nome completo *">
+          <p class="campo-obrigatorio">campo obrigatório</p>
+
+          <input class="input-text" type="email" placeholder="Email *">
+          <p class="campo-obrigatorio">campo obrigatório</p>
+
+          <input class="input-text" type="tel" placeholder="Telefone *">
+          <p class="campo-obrigatorio">campo obrigatório</p>
+
+          <textarea class="input-text msg" type="text" placeholder="Mensagem *"></textarea>
+          <p class="campo-obrigatorio">campo obrigatório</p>
+
+          <p class="msg-campo-obrigatorio">*campos obrigatórios</p>
+
+          <button id="botao-enviar" type="submit">Enviar</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./src/js/index.js"></script>
+  </section>
+  <div class="container" id="vantagens">
+    <div class="row">
+      <div class="section-title">
+        <h2>Vantagens</h2>
+      </div>
+    </div>
+  </div>
+  <section>
+    <div class="vantagens">
+      <img src="src/imagens/vantagens_controle.png" alt="Mantenha o controle da presença!" />
+      <img src="src/imagens/vantagens_evitef.png" alt="Evite faltas!" />
+      <img src="src/imagens/vantagens_tecponta.png" alt="Tecnologia de ponta!" />
+    </div>
+
+  </section>
+
+  <section class="sobre-mim section" id="equipe">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>os capivaras</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/cudebosta.webp" alt="Daniel Otário" />
+          </div>
+        </div>
+        <pre>
+        </pre>
+        <div class="informacoes-sobre-mim">
+          <h1>Daniel legal</h1>
+          <br>
+          <h3>Back-end</h3>
+          <br>
+          <br>
+          <p>
+            eu sou o melhor
+          </p>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/theo-canuto-2b15b0266/" target="_blank" class="outer-shadow"><i
+                class="fab fa-linkedin-in"></i></a>
+            <!-- <a href="https://api.whatsapp.com/send?phone=5521981664676" target="_blank" class="outer-shadow"><i
+                class="fab fa-whatsapp"></i></a> -->
+            <a href="https://github.com/canutoth" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/canutoth/" target="_blank" class="outer-shadow"><i
+                class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <pre>
+        <br>
+        <br>
+        <br>
+      </pre>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/henrique.jpg" alt="Henrique de Luna" />
+          </div>
+        </div>
+        <pre>
+        </pre>
+        <div class="informacoes-sobre-mim">
+          <h1>Henrique de Luna</h1>
+          <br>
+          <h3>Front-end</h3>
+          <br>
+          <br>
+          <p>
+            texto
+          </p>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/theo-canuto-2b15b0266/" target="_blank" class="outer-shadow"><i
+                class="fab fa-linkedin-in"></i></a>
+            <!-- <a href="https://api.whatsapp.com/send?phone=5521981664676" target="_blank" class="outer-shadow"><i
+                class="fab fa-whatsapp"></i></a> -->
+            <a href="https://github.com/canutoth" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/canutoth/" target="_blank" class="outer-shadow"><i
+                class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <pre>
+        <br>
+        <br>
+        <br>
+      </pre>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/anemico.jpg" alt="Miguel Arcanjo" />
+          </div>
+        </div>
+        <pre>
+        </pre>
+        <div class="informacoes-sobre-mim">
+          <h1>Miguel Arcanjo</h1>
+          <br>
+          <h3>Hardware</h3>
+          <br>
+          <br>
+          <p>
+            texto
+          </p>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/theo-canuto-2b15b0266/" target="_blank" class="outer-shadow"><i
+                class="fab fa-linkedin-in"></i></a>
+            <!-- <a href="https://api.whatsapp.com/send?phone=5521981664676" target="_blank" class="outer-shadow"><i
+                class="fab fa-whatsapp"></i></a> -->
+            <a href="https://github.com/canutoth" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/canutoth/" target="_blank" class="outer-shadow"><i
+                class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <pre>
+        <br>
+        <br>
+        <br>
+      </pre>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/teteo.jpg" alt="Theo Canuto" />
+          </div>
+        </div>
+        <pre>
+        </pre>
+        <div class="informacoes-sobre-mim">
+          <h1>Theo Canuto</h1>
+          <br>
+          <h3>Front-end && Design de Produto</h3>
+          <br>
+          <br>
+          <p>
+            texto
+          </p>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/theo-canuto-2b15b0266/" target="_blank" class="outer-shadow"><i
+                class="fab fa-linkedin-in"></i></a>
+            <!-- <a href="https://api.whatsapp.com/send?phone=5521981664676" target="_blank" class="outer-shadow"><i
+                class="fab fa-whatsapp"></i></a> -->
+            <a href="https://github.com/canutoth" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/canutoth/" target="_blank" class="outer-shadow"><i
+                class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Fale conosco!</h2>
+      <br>
+      <div class="endereco-email">
+        <p>projetosautomatizacao@gmail.com</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
